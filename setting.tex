@@ -33,7 +33,7 @@ $endif$
     colorlinks=true,
     linkcolor=blue,
     filecolor=magenta,      
-    urlcolor=cyan,
+    urlcolor=black,
 }
 
 \pagestyle{empty}
@@ -46,7 +46,7 @@ $endif$
 \setlength{\parskip}{0pt plus 0.5ex}
 \setlength{\OuterFrameSep}{-0.1pt}
 
-\newcommand{\bcolorbox}{\begin{tcolorbox}}
+\newcommand{\bcolorbox}{\begin{tcolorbox}[breakable,colback=white,colframe=cyan]}
 \newcommand{\ecolorbox}{\end{tcolorbox}}
 
 \makeatletter
@@ -61,7 +61,7 @@ $endif$
 
 \textbf{$packagename$} Cheatsheet by \href{https://www.youtube.com/c/statisticsplaybook}{슬기로운 통계생활}
 
-\begin{multicols*}{4}
+\begin{multicols*}{$ncol$}
 
 % Can play around with these as desired.
 % \setlength{\columnseprule}{0.25pt}

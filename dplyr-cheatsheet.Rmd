@@ -1,0 +1,42 @@
+---
+output:
+  bookdown::pdf_document2:
+    latex_engine: xelatex
+    toc: false
+    template: "setting.tex"
+mainfont: NanumMyeongjo
+packagename: dplyr
+ncol: 3
+---
+
+```{r include=FALSE}
+knitr::opts_chunk$set(comment = ">>")
+library(dplyr)
+```
+
+\bcolorbox
+
+# `across` - 함수를 여러 "칼럼"에 적용
+
+```{r}
+mtcars[,1:6] %>% 
+  summarise(across(where(is.numeric), mean, na.rm=TRUE))
+```
+
+
+\ecolorbox
+
+
+\bcolorbox
+
+# `slice family` 최대, 최소 구할때 개꿀
+
+`slice_min`, `slice_max`, `slice_sample`
+
+```{r}
+mtcars[,1:6] %>% 
+  slice_min(mpg, n=2)
+```
+
+\ecolorbox
+

@@ -6,10 +6,11 @@ output:
     template: "setting.tex"
 mainfont: NanumMyeongjo
 packagename: purrr
+ncol: 4
 ---
 
 ```{r include=FALSE}
-library(tidyverse)
+knitr::opts_chunk$set(comment = ">>")
 library(purrr)
 ```
 
