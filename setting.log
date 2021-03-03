@@ -1,0 +1,416 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.3.2)  2 MAR 2021 19:49
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**setting.tex
+(./setting.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18>
+(c:/Users/issac/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/kotex-oblivoir/obl
+ivoir.cls
+Document Class: oblivoir 2020/02/09 v2.2
+
+(c:/Users/issac/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xkeyval/xkeyval.st
+y
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(c:/Users/issac/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xkeyval/xkeyval.
+tex
+(c:/Users/issac/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xkeyval/xkvutils
+.tex
+\XKV@toks=\toks15
+\XKV@tempa@toks=\toks16
+
+(c:/Users/issac/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xkeyval/keyval.t
+ex))
+\XKV@depth=\count179
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(c:/Users/issac/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/
+xparse.sty
+(c:/Users/issac/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-02-18 L3 programming layer (loader) 
+
+(c:/Users/issac/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backen
+d-pdftex.def
+File: l3backend-pdftex.def 2021-02-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count180
+\l__pdf_internal_box=\box47
+))
+(c:/Users/issac/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/
+xparse-2020-10-01.sty
+(c:/Users/issac/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/
+xparse-generic.tex)))
+(c:/Users/issac/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+(c:/Users/issac/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/kotex-oblivoir/obl
+ivoir-utf.cls
+Document Class: oblivoir-utf 2020/02/10 v0.8.2 article-like class to typeset UT
+F-8 korean using memoir.
+\fa@setheight=\skip47
+\fa@setwidth=\skip48
+(c:/Users/issac/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/memoir/memoir.cls
+Document Class: memoir 2020/10/04 v3.7n configurable book, report, article docu
+ment class
+\onelineskip=\skip49
+\lxvchars=\skip50
+\xlvchars=\skip51
+\@memcnta=\count181
+\c@@memmarkcntra=\count182
+\stockheight=\skip52
+\stockwidth=\skip53
+\trimtop=\skip54
+\trimedge=\skip55
+(c:/Users/issac/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/memoir/mem10.clo
+File: mem10.clo 2008/01/30 v0.3 memoir class 10pt size option
+)
+\binding=\skip56
+\spinemargin=\skip57
+\foremargin=\skip58
+\uppermargin=\skip59
+\lowermargin=\skip60
+\headdrop=\skip61
+\normalrulethickness=\skip62
+\mem@maxheadheight=\skip63
+\mem@maxfootheight=\skip64
+\headwidth=\skip65
+\c@storedpagenumber=\count183
+\memPD=\dimen138
+\m@mabparskip=\skip66
+\thanksmarkwidth=\skip67
+\thanksmarksep=\skip68
+\droptitle=\skip69
+\c@book=\count184
+\c@part=\count185
+\c@chapter=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\beforechapskip=\skip70
+\midchapskip=\skip71
+\afterchapskip=\skip72
+\chapindent=\skip73
+\bottomsectionskip=\skip74
+\secindent=\skip75
+\beforesecskip=\skip76
+\aftersecskip=\skip77
+\subsecindent=\skip78
+\beforesubsecskip=\skip79
+\aftersubsecskip=\skip80
+\subsubsecindent=\skip81
+\beforesubsubsecskip=\skip82
+\aftersubsubsecskip=\skip83
+\paraindent=\skip84
+\beforeparaskip=\skip85
+\afterparaskip=\skip86
+\subparaindent=\skip87
+\beforesubparaskip=\skip88
+\aftersubparaskip=\skip89
+\pfbreakskip=\skip90
+\c@@ppsavesec=\count192
+\c@@ppsaveapp=\count193
+\ragrparindent=\dimen139
+\everylistparindent=\dimen140
+\parsepi=\skip91
+\topsepi=\skip92
+\itemsepi=\skip93
+\parsepii=\skip94
+\topsepii=\skip95
+\topsepiii=\skip96
+\itemsepii=\skip97
+\itemsepiii=\skip98
+\partopsepii=\skip99
+\partopsepiii=\skip100
+\m@msavetopsep=\skip101
+\m@msavepartopsep=\skip102
+\@enLab=\toks17
+\abstitleskip=\skip103
+\absleftindent=\skip104
+\abs@leftindent=\dimen141
+\absrightindent=\skip105
+\absparindent=\skip106
+\absparsep=\skip107
+\c@vslineno=\count194
+\c@poemline=\count195
+\c@modulo@vs=\count196
+\c@memfvsline=\count197
+\vleftskip=\skip108
+\vrightskip=\skip109
+\stanzaskip=\skip110
+\versewidth=\skip111
+\vgap=\skip112
+\vindent=\skip113
+\vleftmargin=\dimen142
+\c@verse=\count198
+\c@chrsinstr=\count199
+\beforepoemtitleskip=\skip114
+\afterpoemtitleskip=\skip115
+\c@poem=\count266
+\beforePoemTitleskip=\skip116
+\midPoemTitleskip=\skip117
+\afterPoemTitleskip=\skip118
+
+(c:/Users/issac/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/array.sty
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen143
+\ar@mcellbox=\box48
+\extrarowheight=\dimen144
+\NC@list=\toks18
+\extratabsurround=\skip119
+\backup@length=\skip120
+\ar@cellbox=\box49
+)
+(c:/Users/issac/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/dcolumn.sty
+Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
+)
+(c:/Users/issac/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/delarray.sty
+Package: delarray 2014/10/28 v1.01 array delimiter package (DPC)
+)
+(c:/Users/issac/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen145
+\TX@old@table=\dimen146
+\TX@old@col=\dimen147
+\TX@target=\dimen148
+\TX@delta=\dimen149
+\TX@cols=\count267
+\TX@ftn=\toks19
+)
+\heavyrulewidth=\dimen150
+\lightrulewidth=\dimen151
+\cmidrulewidth=\dimen152
+\belowrulesep=\dimen153
+\belowbottomsep=\dimen154
+\aboverulesep=\dimen155
+\abovetopsep=\dimen156
+\cmidrulesep=\dimen157
+\cmidrulekern=\dimen158
+\defaultaddspace=\dimen159
+\@cmidla=\count268
+\@cmidlb=\count269
+\@aboverulesep=\dimen160
+\@belowrulesep=\dimen161
+\@thisruleclass=\count270
+\@lastruleclass=\count271
+\@thisrulewidth=\dimen162
+\ctableftskip=\skip121
+\ctabrightskip=\skip122
+\abovecolumnspenalty=\count272
+\@linestogo=\count273
+\@cellstogo=\count274
+\@cellsincolumn=\count275
+\crtok=\toks20
+\@mincolumnwidth=\dimen163
+\c@newflo@tctr=\count276
+\mem@margin@floatbox=\box50
+\@contcwidth=\skip123
+\@contindw=\skip124
+\abovecaptionskip=\skip125
+\belowcaptionskip=\skip126
+\subfloattopskip=\skip127
+\subfloatcapskip=\skip128
+\subfloatcaptopadj=\skip129
+\subfloatbottomskip=\skip130
+\subfloatlabelskip=\skip131
+\subfloatcapmargin=\dimen164
+\c@@contsubnum=\count277
+\m@mscap@capbox=\box51
+\m@mscap@fbox=\box52
+\sidecapsep=\dimen165
+\sidecapwidth=\dimen166
+\m@m@tempdima=\dimen167
+\m@mscapraise=\dimen168
+\sidecapraise=\dimen169
+\m@mscapmainwidth=\dimen170
+\m@mscaplkern=\dimen171
+\beforeepigraphskip=\skip132
+\afterepigraphskip=\skip133
+\epigraphwidth=\skip134
+\epigraphrule=\skip135
+LaTeX Info: Redefining \em on input line 7678.
+LaTeX Info: Redefining \emph on input line 7686.
+\tocentryskip=\skip136
+\tocbaseline=\skip137
+\cftparskip=\skip138
+\cftbeforebookskip=\skip139
+\cftbookindent=\dimen172
+\cftbooknumwidth=\dimen173
+\cftbeforepartskip=\skip140
+\cftpartindent=\skip141
+\cftpartnumwidth=\skip142
+\cftbeforechapterskip=\skip143
+\cftchapterindent=\skip144
+\cftchapternumwidth=\skip145
+\cftbeforesectionskip=\skip146
+\cftsectionindent=\skip147
+\cftsectionnumwidth=\skip148
+\cftbeforesubsectionskip=\skip149
+\cftsubsectionindent=\skip150
+\cftsubsectionnumwidth=\skip151
+\cftbeforesubsubsectionskip=\skip152
+\cftsubsubsectionindent=\skip153
+\cftsubsubsectionnumwidth=\skip154
+\cftbeforeparagraphskip=\skip155
+\cftparagraphindent=\skip156
+\cftparagraphnumwidth=\skip157
+\cftbeforesubparagraphskip=\skip158
+\cftsubparagraphindent=\skip159
+\cftsubparagraphnumwidth=\skip160
+\prechapterprecisshift=\dimen174
+\c@maxsecnumdepth=\count278
+\bibindent=\dimen175
+\bibitemsep=\skip161
+\indexcolsep=\skip162
+\indexrule=\skip163
+\indexmarkstyle=\toks21
+\@indexbox=\insert252
+\glossarycolsep=\dimen176
+\glossaryrule=\dimen177
+\sideparvshift=\skip164
+\sideins=\insert251
+\sidebartopsep=\skip165
+\sidebarhsep=\skip166
+\sidebarvsep=\skip167
+\sidebarwidth=\skip168
+\footmarkwidth=\skip169
+\footmarksep=\skip170
+\footparindent=\skip171
+\footinsdim=\skip172
+\footinsv@r=\insert250
+\@mpfootinsv@r=\insert249
+\m@m@k=\count279
+\m@m@h=\dimen178
+\m@mipn@skip=\skip173
+\sidefootins=\insert248
+\sidefootadjust=\skip174
+\sidefootheight=\skip175
+\sidefoothsep=\skip176
+\sidefootvsep=\skip177
+\sidefootwidth=\skip178
+\m@mdownsf=\skip179
+\c@sidefootnote=\count280
+\sidefootmarkwidth=\skip180
+\sidefootmarksep=\skip181
+\sidefootparindent=\skip182
+\c@pagenote=\count281
+\c@pagenoteshadow=\count282
+\mem@pn@lastkern=\skip183
+\every@verbatim=\toks22
+\afterevery@verbatim=\toks23
+\verbatim@line=\toks24
+\tab@position=\count283
+\verbatim@in@stream=\read2
+\verbatimindent=\skip184
+\verbatim@out=\write3
+\bvboxsep=\skip185
+\c@memfbvline=\count284
+\c@bvlinectr=\count285
+\bvnumlength=\skip186
+\fb@frw=\dimen179
+\fb@frh=\dimen180
+\FrameRule=\dimen181
+\FrameSep=\dimen182
+\c@cp@cntr=\count286
+\c@ism@mctr=\count287
+\c@xsm@mctr=\count288
+\c@csm@mctr=\count289
+\c@ksm@mctr=\count290
+\c@xksm@mctr=\count291
+\c@cksm@mctr=\count292
+\c@msm@mctr=\count293
+\c@xmsm@mctr=\count294
+\c@cmsm@mctr=\count295
+\c@bsm@mctr=\count296
+\c@workm@mctr=\count297
+\c@sheetsequence=\count298
+\c@lastsheet=\count299
+\c@lastpage=\count300
+
+(c:/Users/issac/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/textcase/textcase.
+sty
+Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
+)
+\c@figure=\count301
+\c@lofdepth=\count302
+\cftbeforefigureskip=\skip187
+\cftfigureindent=\skip188
+\cftfigurenumwidth=\skip189
+\c@table=\count303
+\c@lotdepth=\count304
+\cftbeforetableskip=\skip190
+\cfttableindent=\skip191
+\cfttablenumwidth=\skip192
+Package abstract [2008/07/23] emulated by memoir.
+Package appendix [2008/07/23] emulated by memoir.
+Package booktabs [2016/05/16] emulated by memoir.
+Package ccaption [2008/07/23] emulated by memoir.
+Package changepage [2008/07/23] emulated by memoir.
+Package chngcntr [2008/07/23] emulated by memoir.
+Package chngpage [2008/07/23] emulated by memoir.
+Package crop emulated by memoir.
+Package enumerate [2008/07/23] emulated by memoir.
+Package epigraph [2008/07/23] emulated by memoir.
+Package ifmtarg [2008/07/23] emulated by memoir.
+Package index [2008/07/23] emulated by memoir.
+Package makeidx [2008/07/23] emulated by memoir.
+Package moreverb [2008/07/23] emulated by memoir.
+Package mparhack [2008/07/23] emulated by memoir.
+Package needspace [2008/07/23] emulated by memoir.
+Package newfile [2008/07/23] emulated by memoir.
+Package nextpage [2008/07/23] emulated by memoir.
+Package pagenote [2008/07/23] emulated by memoir.
+Package parskip [2008/07/23] emulated by memoir.
+Package patchcmd [2008/07/23] emulated by memoir.
+Package setspace [2008/07/23] emulated by memoir.
+Package shortvrb [2008/07/23] emulated by memoir.
+Package showidx [2008/07/23] emulated by memoir.
+Package titleref [2008/07/23] emulated by memoir.
+Package titling [2008/07/23] emulated by memoir.
+Package tocbibind [2008/07/23] emulated by memoir.
+Package tocloft [2008/07/23] emulated by memoir.
+Package tocvsec2 [2008/07/23] emulated by memoir.
+Package verbatim [2008/07/23] emulated by memoir.
+Package verse [2008/07/23] emulated by memoir.
+)
+(c:/Users/issac/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/kotex-oblivoir/mem
+hangul-ucs/memhangul-ucs.sty
+Package: memhangul-ucs 2014/06/12UCS Hangul Package for memoir class
+
+memhangul-ucs v1.7.7 2014/06/12
+
+(c:/Users/issac/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/kotex-utf/dhucs.st
+y
+Package: dhucs 2012/11/08 v5.3.2 typesetting UTF-8 Korean documents
+
+(c:/Users/issac/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/kotex-utf/kotexutf
+.sty
+Package: kotexutf 2015/07/18 v2.1.1 typesetting UTF-8 Korean documents
+
+(c:/Users/issac/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks25
+\inpenc@posthook=\toks26
+)
+! I can't find file `kotexutf-core'.
+l.35 \input kotexutf-core
+                         
+(Press Enter to retry, or Control-Z to exit)
+Please type another input file name
+! Emergency stop.
+l.35 \input kotexutf-core
+                         
+*** (job aborted, file error in nonstop mode)
+
+ 
+Here is how much of TeX's memory you used:
+ 4281 strings out of 480971
+ 64268 string characters out of 5906255
+ 376060 words of memory out of 5000000
+ 21522 multiletter control sequences out of 15000+600000
+ 404028 words of font info for 29 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 111i,1n,116p,206b,70s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

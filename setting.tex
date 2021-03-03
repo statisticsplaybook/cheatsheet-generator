@@ -1,3 +1,8 @@
+% inspired by https://github.com/tonyelhabr/cheat-sheet-rmarkdown/blob/master/template.tex
+% adjusted by Issac Lee (https://github.com/issactoast)
+% distributed by Statistics playbook (https://github.com/statisticsplaybook)
+% last modified in Mar 2, 2021
+
 \documentclass[10pt,quotespacing]{oblivoir}
 
 % Package imports.
@@ -21,7 +26,6 @@ $if(mainfont)$
   \setmainfont[$for(mainfontoptions)$$mainfontoptions$$sep$,$endfor$]{$mainfont$}
 $endif$
 
-
 % 편집용지(가로), 편집용지(세로), 왼,오른,위,아래
 \usefapapersize{257mm, 188mm, 10mm, 10mm, 10mm, 10mm}
 
@@ -42,13 +46,20 @@ $endif$
 \setlength{\parskip}{0pt plus 0.5ex}
 \setlength{\OuterFrameSep}{-0.1pt}
 
+\newcommand{\beginbox}{\begin{tcolorbox}}
+\newcommand{\endrbox}{\end{tcolorbox}}
+
 \makeatletter
-\preto{\@verbatim}{\topsep=0pt \partopsep=0pt }
+\preto{\@verbatim}{\topsep=0pt \partopsep=0pt}
+\renewcommand{\section}{\@startsection{section}{1}{0mm}%
+                        {1ex plus -.5ex minus -.2ex}%
+                        {0.5\baselineskip}%
+                        {\normalfont\footnotesize\bfseries}}
 \makeatother
 
 \begin{document}
 
-\textbf{$packagename$} Cheatsheet by \href{url}{Issac Lee}
+\textbf{$packagename$} Cheatsheet by \href{https://www.youtube.com/c/statisticsplaybook}{슬기로운 통계생활}
 
 \begin{multicols*}{4}
 
@@ -62,11 +73,7 @@ $endif$
 % This is the "magic" pandoc variable. (This is where your Rmarkdown document is inserted.)
 \tiny
 
-\begin{tcolorbox}
-
 $body$
-
-\end{tcolorbox}
 
 % `\end` statements to match the `\begin`s.
 \end{multicols*}
