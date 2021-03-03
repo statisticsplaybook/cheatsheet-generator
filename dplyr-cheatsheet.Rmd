@@ -29,13 +29,13 @@ mtcars[,1:6] %>%
 
 \bcolorbox
 
-# `slice family` 최대, 최소 구할때 개꿀
+# `slice_family` 특정 변수 기준 최대, 최소 구할때
 
-`slice_min`, `slice_max`, `slice_sample`
+사용가능 함수: `slice_min`, `slice_max`, `slice_sample`
 
 ```{r}
 mtcars[,1:6] %>% 
-  slice_min(mpg, n=2)
+  slice_min(mpg, n=2) # n 대신 prop 사용가능
 ```
 
 \ecolorbox
