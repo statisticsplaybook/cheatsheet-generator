@@ -1,8 +1,6 @@
 ---
-title: ""
 output:
   bookdown::pdf_document2:
-    keep_tex: yes
     latex_engine: xelatex
     toc: false
     template: "setting.tex"
@@ -15,7 +13,7 @@ library(tidyverse)
 library(purrr)
 ```
 
-\beginbox
+\bcolorbox
 
 # **`reduce` and `accumulate` 함수**
 
@@ -26,11 +24,11 @@ reduce(1:10, sum)
 accumulate(1:10, sum)
 ```
 
-\endbox
+\ecolorbox
 
-\beginbox
+\bcolorbox
 
-**`reduce` 함수 응용**
+# `reduce` 함수 응용
 
 이것이야말로 그들을 황금시대를 우는 풀이 시들어 청춘 속에 말이다. 이상의 구하지 사랑의 그들은 현저하게 따뜻한 피다. 이상의 붙잡아 속에서 피다. 보배를 품에 용
 
@@ -41,7 +39,7 @@ paste2 <- function(x, y, sep = "."){
 letters[1:4] %>% reduce(paste2)
 ```
 
-\endbox
+\ecolorbox
 
 **`reduce` and `accumulate` 함수**
 

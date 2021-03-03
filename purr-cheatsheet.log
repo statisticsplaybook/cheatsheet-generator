@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2021.3.2)  2 MAR 2021 20:44
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2021.3.2)  2 MAR 2021 20:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**cheat-sheet-example.tex
-(./cheat-sheet-example.tex
+**purr-cheatsheet.tex
+(./purr-cheatsheet.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18>
 (c:/Users/issac/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/kotex-oblivoir/obl
@@ -1505,23 +1505,144 @@ Sidefootvsep and sidefootheight: 12pt and 548.39996pt
 ******************************************************
 
 Package hyperref Info: Option `colorlinks' set `true' on input line 72.
+(./purr-cheatsheet.aux)
+\openout1 = `purr-cheatsheet.aux'.
 
-! LaTeX Error: Command \endrbox already defined.
-               Or name \end... illegal, see p.192 of the manual.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 95.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 9
+5.
+(c:/Users/issac/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.85 \newcommand{\endrbox}{\end{tcolorbox}}
-                                            
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 95.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 95.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 95.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 95.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 95.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 95.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 95.
+LaTeX Font Info:    Redeclaring math accent \check on input line 95.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 95.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 95.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 95.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 95.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 95.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/NanumMyeongjo(0)/m/n on input line 9
+5.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 95.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/NanumMyeongjo(0)/m/n on input line 
+95.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/NanumMyeongjo(0)/m/n --> TU/NanumMyeongjo(0)/m/n on 
+input line 95.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/NanumMyeongjo(0)/m/it on input line
+ 95.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/NanumMyeongjo(0)/b/n on input line 
+95.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 95.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 95.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/NanumMyeongjo(0)/m/n --> TU/NanumMyeongjo(0)/b/n on 
+input line 95.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/NanumMyeongjo(0)/b/it on input lin
+e 95.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 95.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 95.
+\symmathhangul=\mathgroup7
+Package hyperref Info: Link coloring ON on input line 95.
+
+(c:/Users/issac/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.s
+ty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(c:/Users/issac/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/refcount/refcount.
+sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(c:/Users/issac/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/gettitlestring/g
+ettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count411
+)
+Redoing nameref's sectioning
+Redoing nameref's label
+LaTeX Info: Redefining \nameref on input line 95.
+LaTeX Info: Redefining \ref on input line 95.
+LaTeX Info: Redefining \pageref on input line 95.
+LaTeX Info: Redefining \nameref on input line 95.
+(./purr-cheatsheet.out) (./purr-cheatsheet.out)
+\@outlinefile=\write8
+\openout8 = `purr-cheatsheet.out'.
+
+\c@lstlisting=\count412
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <7> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 114.
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <6> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 149.
+[1
+
+] (./purr-cheatsheet.aux)
+Package rerunfilecheck Info: File `purr-cheatsheet.out' has not changed.
+(rerunfilecheck)             Checksum: 9626B98913FB329EB6E7DDBFF92ED90D;301.
+ ) 
 Here is how much of TeX's memory you used:
- 35577 strings out of 478931
- 696347 string characters out of 5865405
- 1101078 words of memory out of 5000000
- 54885 multiletter control sequences out of 15000+600000
- 403878 words of font info for 39 fonts, out of 8000000 for 9000
+ 35936 strings out of 478931
+ 703836 string characters out of 5865405
+ 1126839 words of memory out of 5000000
+ 55208 multiletter control sequences out of 15000+600000
+ 403950 words of font info for 48 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 156i,2n,158p,441b,2587s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 156i,10n,158p,467b,2587s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-No pages of output.
+Output written on purr-cheatsheet.pdf (1 page).
+
+! kpathsea:make_tex: Invalid filename `[UnDotum', contains '['

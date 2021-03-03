@@ -46,15 +46,15 @@ $endif$
 \setlength{\parskip}{0pt plus 0.5ex}
 \setlength{\OuterFrameSep}{-0.1pt}
 
-\newcommand{\beginbox}{\begin{tcolorbox}}
-\newcommand{\endrbox}{\end{tcolorbox}}
+\newcommand{\bcolorbox}{\begin{tcolorbox}}
+\newcommand{\ecolorbox}{\end{tcolorbox}}
 
 \makeatletter
 \preto{\@verbatim}{\topsep=0pt \partopsep=0pt}
 \renewcommand{\section}{\@startsection{section}{1}{0mm}%
                         {1ex plus -.5ex minus -.2ex}%
                         {0.5\baselineskip}%
-                        {\normalfont\footnotesize\bfseries}}
+                        {\normalfont\scriptsize\bfseries}}
 \makeatother
 
 \begin{document}
