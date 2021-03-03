@@ -9,7 +9,11 @@ To use it, include the following in the YAML header of your Rmarkdown file.
 ```
 ---
 output:
-  pdf_document:
-    template: {/path/to/template.tex}
+  bookdown::pdf_document2:
+    latex_engine: xelatex
+    toc: false
+    template: "setting.tex"
+mainfont: NanumMyeongjo
+packagename: 패키지명
 ---
 ```
