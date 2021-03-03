@@ -6,7 +6,7 @@
 
 To use it, include the following in the YAML header of your Rmarkdown file. (문서 설정부분은 다음과 같이 해주시면 됩니다.)
 
-```
+```yaml
 ---
 output:
   bookdown::pdf_document2:
