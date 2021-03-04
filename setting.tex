@@ -27,7 +27,7 @@ $if(mainfont)$
 $endif$
 
 % 편집용지(가로), 편집용지(세로), 왼,오른,위,아래
-\usefapapersize{257mm, 188mm, 10mm, 10mm, 10mm, 10mm}
+\usefapapersize{257mm, 188mm, 5mm, 5mm, 5mm, 5mm}
 
 \hypersetup{
     colorlinks=true,
@@ -46,7 +46,8 @@ $endif$
 \setlength{\parskip}{0pt plus 0.5ex}
 \setlength{\OuterFrameSep}{-0.1pt}
 
-\newcommand{\bcolorbox}{\begin{tcolorbox}[breakable,colback=white,colframe=cyan]}
+\newcommand{\bcolorbox}{\begin{tcolorbox}[breakable$if(boxbg)$,colback=$boxbg$$endif$$if(framecol)$,colframe=$framecol$$endif$]}
+
 \newcommand{\ecolorbox}{\end{tcolorbox}}
 
 \makeatletter
@@ -59,7 +60,13 @@ $endif$
 
 \begin{document}
 
-\textbf{$packagename$} Cheatsheet $if(editor)$ by \textbf{$editor$}$endif$
+\begin{tcolorbox}[%
+    enhanced, height fill,
+    breakable, colframe=black!75!yellow, colback=white,fonttitle=\bfseries,
+title=\textbf{$packagename$} Cheatsheet $if(editor)$ by \textbf{$editor$}$endif$, overlay broken = {
+        \draw[line width=1mm, black!75!yellow, rounded corners]
+        (frame.north west) rectangle (frame.south east);},
+    ]{}
 
 $if(ncol)$
 \begin{multicols*}{$ncol$}
@@ -84,6 +91,9 @@ $body$
 
 % `\end` statements to match the `\begin`s.
 \end{multicols*}
+
+\end{tcolorbox}
+
 
 \end{document}
 

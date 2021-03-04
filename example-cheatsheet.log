@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2021.3.2)  2 MAR 2021 23:13
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2021.3.3)  3 MAR 2021 21:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**dplyr-cheatsheet.tex
-(./dplyr-cheatsheet.tex
+**example-cheatsheet.tex
+(./example-cheatsheet.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18>
 (c:/Users/issac/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/kotex-oblivoir/obl
@@ -561,7 +561,7 @@ Package: `memucs-setspace', a modified version of `setspace', 6.7-memucs8 <2007
 
 (c:/Users/issac/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.
 sty
-Package: hyperref 2021-02-10 v7.00j Hypertext links for LaTeX
+Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
 
 (c:/Users/issac/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pdfescape/pdfesc
 ape.sty
@@ -585,11 +585,11 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 
 (c:/Users/issac/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.de
 f
-File: pd1enc.def 2021-02-10 v7.00j Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2021-02-27 v7.00k Hyperref: PDFDocEncoding definition (HO)
 )
 (c:/Users/issac/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref-
 langpatches.def
-File: hyperref-langpatches.def 2021-02-10 v7.00j Hyperref: patches for babel la
+File: hyperref-langpatches.def 2021-02-27 v7.00k Hyperref: patches for babel la
 nguages
 )
 (c:/Users/issac/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.
@@ -603,7 +603,7 @@ Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 \Hy@SavedSpaceFactor=\count325
 
 (c:/Users/issac/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2021-02-10 v7.00j Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
 )
 Package hyperref Info: Hyper figures OFF on input line 4192.
 Package hyperref Info: Link nesting OFF on input line 4197.
@@ -663,7 +663,7 @@ Package hyperref Info: Driver (autodetected): hxetex.
 
 (c:/Users/issac/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hxetex.de
 f
-File: hxetex.def 2021-02-10 v7.00j Hyperref driver for XeTeX
+File: hxetex.def 2021-02-27 v7.00k Hyperref driver for XeTeX
 
 (c:/Users/issac/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/stringenc/string
 enc.sty
@@ -1489,13 +1489,13 @@ Package fontspec Info: Font family 'NanumMyeongjo(0)' created for font
 Stock height and width: 534.9118pt by 731.23582pt
 Top and edge trims: 0pt and 0pt
 Page height and width: 534.9118pt by 731.23582pt
-Text height and width: 478pt by 674pt
-Spine and edge margins: 28.45274pt and 28.45274pt
-Upper and lower margins: 28.45274pt and 28.45906pt
-Headheight and headsep: 15.60748pt and 10pt
-Footskip: 15.60748pt
+Text height and width: 514pt by 702pt
+Spine and edge margins: 14.22636pt and 14.22636pt
+Upper and lower margins: 14.22636pt and 6.68544pt
+Headheight and headsep: 1.3811pt and 10pt
+Footskip: 1.3811pt
 Columnsep and columnseprule: 10pt and 0pt
-Marginparsep and marginparwidth: 7pt and 14.45274pt
+Marginparsep and marginparwidth: 7pt and 1pt
 Sidecapsep and sidecapwidth: 7pt and 71pt
 Sidebarhsep and sidebarwidth: 7pt and 71pt
 Sidebarvsep and sidebartopsep: 12pt and 0pt
@@ -1505,99 +1505,99 @@ Sidefootvsep and sidefootheight: 12pt and 548.39996pt
 ******************************************************
 
 Package hyperref Info: Option `colorlinks' set `true' on input line 72.
-(./dplyr-cheatsheet.aux)
-\openout1 = `dplyr-cheatsheet.aux'.
+(./example-cheatsheet.aux)
+\openout1 = `example-cheatsheet.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 95.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 96.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 9
-5.
+6.
 (c:/Users/issac/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 95.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 95.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 95.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 95.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 95.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 95.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 95.
-LaTeX Font Info:    Redeclaring math accent \check on input line 95.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 95.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 95.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 95.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 95.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 95.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 95.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 95.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 95.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 95.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 95.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 95.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 95.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 95.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 95.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 95.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 95.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 96.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 96.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 96.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 96.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 96.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 96.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 96.
+LaTeX Font Info:    Redeclaring math accent \check on input line 96.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 96.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 96.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 96.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 96.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 96.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 96.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 96.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 96.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 96.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 96.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 96.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 96.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 96.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 96.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 96.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 96.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 95.
+(Font)              `operators' in the math version `normal' on input line 96.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/NanumMyeongjo(0)/m/n on input line 9
-5.
+6.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 95.
+(Font)              `operators' in the math version `bold' on input line 96.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/NanumMyeongjo(0)/m/n on input line 
-95.
+96.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/NanumMyeongjo(0)/m/n --> TU/NanumMyeongjo(0)/m/n on 
-input line 95.
+input line 96.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/NanumMyeongjo(0)/m/it on input line
- 95.
+ 96.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/NanumMyeongjo(0)/b/n on input line 
-95.
+96.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 95.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 96.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 95.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 96.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/NanumMyeongjo(0)/m/n --> TU/NanumMyeongjo(0)/b/n on 
-input line 95.
+input line 96.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/NanumMyeongjo(0)/b/it on input lin
-e 95.
+e 96.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 95.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 96.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 95.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 96.
 \symmathhangul=\mathgroup7
-Package hyperref Info: Link coloring ON on input line 95.
+Package hyperref Info: Link coloring ON on input line 96.
 
 (c:/Users/issac/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.s
 ty
@@ -1615,38 +1615,42 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 95.
-LaTeX Info: Redefining \ref on input line 95.
-LaTeX Info: Redefining \pageref on input line 95.
-LaTeX Info: Redefining \nameref on input line 95.
-(./dplyr-cheatsheet.out) (./dplyr-cheatsheet.out)
+LaTeX Info: Redefining \nameref on input line 96.
+LaTeX Info: Redefining \ref on input line 96.
+LaTeX Info: Redefining \pageref on input line 96.
+LaTeX Info: Redefining \nameref on input line 96.
+(./example-cheatsheet.out) (./example-cheatsheet.out)
 \@outlinefile=\write8
-\openout8 = `dplyr-cheatsheet.out'.
+\openout8 = `example-cheatsheet.out'.
 
 \c@lstlisting=\count412
+
+Package multicol Warning: multicols* inside a box does not make sense.
+(multicol)                Going to balance anyway on input line 106.
+
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <7> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 114.
-Missing character: There is no 대 in font [lmmono10-italic]:!
-Missing character: There is no 신 in font [lmmono10-italic]:!
-Missing character: There is no 사 in font [lmmono10-italic]:!
-Missing character: There is no 용 in font [lmmono10-italic]:!
-Missing character: There is no 가 in font [lmmono10-italic]:!
-Missing character: There is no 능 in font [lmmono10-italic]:!
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 122.
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <6> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 157.
+
+Package tcolorbox Warning: The upper box part has become overfull on input line
+ 634.
+
 [1
 
-] (./dplyr-cheatsheet.aux)
-Package rerunfilecheck Info: File `dplyr-cheatsheet.out' has not changed.
-(rerunfilecheck)             Checksum: A6400EFA9643D653610798F0AC1F0369;483.
+] (./example-cheatsheet.aux)
+Package rerunfilecheck Info: File `example-cheatsheet.out' has not changed.
+(rerunfilecheck)             Checksum: 0EFF4CE3D765F555176B0BE8772C8F42;3082.
  ) 
 Here is how much of TeX's memory you used:
- 35937 strings out of 478931
- 703975 string characters out of 5865405
- 1121121 words of memory out of 5000000
- 55209 multiletter control sequences out of 15000+600000
+ 36020 strings out of 478931
+ 705718 string characters out of 5865405
+ 1298753 words of memory out of 5000000
+ 55293 multiletter control sequences out of 15000+600000
  403942 words of font info for 47 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 156i,10n,158p,438b,2587s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 156i,10n,158p,496b,2587s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dplyr-cheatsheet.pdf (1 page).
+Output written on example-cheatsheet.pdf (1 page).
 
 ! kpathsea:make_tex: Invalid filename `[UnDotum', contains '['
