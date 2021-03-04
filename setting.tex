@@ -49,7 +49,7 @@ $endif$
 \setlength{\OuterFrameSep}{-0.1pt}
 
 % Define colorboxes
-\newcommand{\bcolorbox}{\begin{tcolorbox}[width=\linewidth, enhanced, breakable$if(boxbg)$,colback=$boxbg$$endif$$if(themecol)$,colframe=black!50!$themecol$$endif$]}
+\newcommand{\bcolorbox}{\begin{tcolorbox}[width=\linewidth, enhanced, breakable$if(boxbg)$,colback=$boxbg$$endif$$if(themecol)$,colframe=$themecol$!50!black$endif$]}
 \newcommand{\ecolorbox}{\end{tcolorbox}}
 
 % Redefine \section
