@@ -6,7 +6,9 @@ output:
     template: "setting.tex"
 mainfont: NanumMyeongjo
 packagename: purrr
-ncol: 4
+# editor: Issac Lee
+# colsep: true
+# ncol: 3
 ---
 
 ```{r include=FALSE}

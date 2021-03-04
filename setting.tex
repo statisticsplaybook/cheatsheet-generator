@@ -59,12 +59,19 @@ $endif$
 
 \begin{document}
 
-\textbf{$packagename$} Cheatsheet by \href{https://www.youtube.com/c/statisticsplaybook}{슬기로운 통계생활}
+\textbf{$packagename$} Cheatsheet $if(editor)$ by \textbf{$editor$}$endif$
 
+$if(ncol)$
 \begin{multicols*}{$ncol$}
+$else$
+\begin{multicols*}{4}
+$endif$
+
 
 % Can play around with these as desired.
-% \setlength{\columnseprule}{0.25pt}
+$if(colsep)$
+\setlength{\columnseprule}{0.25pt}
+$endif$
 \setlength{\premulticols}{0.25pt}
 \setlength{\postmulticols}{0.25pt}
 \setlength{\multicolsep}{0.25pt}
