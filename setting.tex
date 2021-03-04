@@ -16,7 +16,9 @@
 \usepackage[utf8]{inputenc}
 \usepackage{textcomp} % provide euro and other symbols
 \usepackage{setspace}\singlespacing
+\usepackage{tikz}
 \usepackage[most]{tcolorbox}
+\tcbuselibrary{skins,breakable}
 
 $if(highlighting-macros)$
 $highlighting-macros$
@@ -46,10 +48,11 @@ $endif$
 \setlength{\parskip}{0pt plus 0.5ex}
 \setlength{\OuterFrameSep}{-0.1pt}
 
-\newcommand{\bcolorbox}{\begin{tcolorbox}[breakable$if(boxbg)$,colback=$boxbg$$endif$$if(framecol)$,colframe=$framecol$$endif$]}
-
+% Define colorboxes
+\newcommand{\bcolorbox}{\begin{tcolorbox}[width=\linewidth, enhanced, breakable$if(boxbg)$,colback=$boxbg$$endif$$if(themecol)$,colframe=black!50!$themecol$$endif$]}
 \newcommand{\ecolorbox}{\end{tcolorbox}}
 
+% Redefine \section
 \makeatletter
 \preto{\@verbatim}{\topsep=0pt \partopsep=0pt}
 \renewcommand{\section}{\@startsection{section}{1}{0mm}%
@@ -58,16 +61,38 @@ $endif$
                         {\normalfont\scriptsize\bfseries}}
 \makeatother
 
+% Boarder line
+% code steal from stack over flow
+% https://tex.stackexchange.com/questions/801/what-is-the-easiest-way-to-get-borders-around-a-page-in-latex
+\usepackage{pgf}
+\usepackage{pgfpages}
+
+\pgfpagesdeclarelayout{boxed}
+{
+  \edef\pgfpageoptionborder{0pt}
+}
+{
+  \pgfpagesphysicalpageoptions
+  {%
+    logical pages=1,%
+  }
+  \pgfpageslogicalpageoptions{1}
+  {
+    border code=\pgfsetlinewidth{2pt}\pgfsetstrokecolor{black!75!$if(themecol)$$themecol$$else$black$endif$}\pgfstroke,%
+    border shrink=\pgfpageoptionborder,%
+    resized width=.95\pgfphysicalwidth,%
+    resized height=.95\pgfphysicalheight,%
+    center=\pgfpoint{.5\pgfphysicalwidth}{.5\pgfphysicalheight}%
+  }%
+}
+
+\pgfpagesuselayout{boxed}
+
 \begin{document}
 
-\begin{tcolorbox}[%
-    enhanced, height fill,
-    breakable, colframe=black!75!yellow, colback=white,fonttitle=\bfseries,
-title=\textbf{$packagename$} Cheatsheet $if(editor)$ by \textbf{$editor$}$endif$, overlay broken = {
-        \draw[line width=1mm, black!75!yellow, rounded corners]
-        (frame.north west) rectangle (frame.south east);},
-    ]{}
+\textbf{$packagename$} Cheatsheet $if(editor)$ by \textbf{$editor$}$endif$
 
+% ncol pandoc parameter
 $if(ncol)$
 \begin{multicols*}{$ncol$}
 $else$
@@ -92,7 +117,9 @@ $body$
 % `\end` statements to match the `\begin`s.
 \end{multicols*}
 
-\end{tcolorbox}
+% \end{tcbraster}
+% 
+% \end{tcolorbox}
 
 
 \end{document}

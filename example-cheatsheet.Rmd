@@ -6,11 +6,11 @@ output:
     template: "setting.tex"
 mainfont: NanumMyeongjo
 packagename: purrr
-# editor: Issac Lee
-colsep: true
+editor: Issac Lee
+# colsep: true
 # ncol: 3
 # boxbg: white
-framecol: black
+themecol: green
 ---
 
 ```{r include=FALSE}
@@ -31,6 +31,8 @@ accumulate(1:10, sum)
 
 \ecolorbox
 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
 \bcolorbox
 
 # `reduce` 함수 응용 1
@@ -45,6 +47,8 @@ letters[1:4] %>% reduce(paste2)
 ```
 
 \ecolorbox
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 \bcolorbox
 
