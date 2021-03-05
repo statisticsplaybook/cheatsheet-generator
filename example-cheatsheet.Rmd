@@ -1,7 +1,6 @@
 ---
 output:
   bookdown::pdf_document2:
-    keep_tex: true
     latex_engine: xelatex
     toc: false
     template: "setting.tex"
