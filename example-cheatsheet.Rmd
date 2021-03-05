@@ -8,7 +8,7 @@ mainfont: NanumMyeongjo
 packagename: example
 editor: Issac Lee
 # colsep: true
-ncol: 3
+ncol: 4
 boxbg: white
 themecol: cyan
 ---
