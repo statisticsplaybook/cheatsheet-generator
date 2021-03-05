@@ -29,7 +29,7 @@ themecol: cyan
 
 * For example, the following body in the Rmd will generates the first box below
 
-```markdown
+````markdown
 \bcolorbox
 
 # **`reduce` and `accumulate` 함수**
@@ -40,8 +40,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 reduce(1:10, sum)
 accumulate(1:10, sum)
 ```
-
 \ecolorbox
-```
+
+````
 
 ![](./example.jpg)
