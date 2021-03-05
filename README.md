@@ -1,5 +1,5 @@
 
-# [Statistics playbook](https://www.youtube.com/c/statisticsplaybook) Cheatsheet Generator
+# Cheatsheet Generator by [Statistics playbook](https://www.youtube.com/c/statisticsplaybook) 
 
 [슬기로운 통계생활](https://www.youtube.com/c/statisticsplaybook) 컨닝페이퍼 생성기
 
@@ -23,11 +23,13 @@ themecol: cyan
 ---
 ```
 
-## Compact Result
+## Tips and Result
 
 * Use `\bcolorbox` and `\ecolorbox` indicating the begin and end of the box.
 
 * For example, the following body in the Rmd will generates the first box below
+
+* For plotting use the option out.width="100%"
 
 ````markdown
 \bcolorbox

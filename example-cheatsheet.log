@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2021.3.4)  5 MAR 2021 15:24
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2021.3.4)  5 MAR 2021 15:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1679,7 +1679,7 @@ Package rerunfilecheck Info: File `example-cheatsheet.out' has not changed.
 Here is how much of TeX's memory you used:
  36221 strings out of 478931
  711673 string characters out of 5865405
- 1301865 words of memory out of 5000000
+ 1301867 words of memory out of 5000000
  55478 multiletter control sequences out of 15000+600000
  405225 words of font info for 52 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
