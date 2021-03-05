@@ -14,7 +14,12 @@ output:
     toc: false
     template: "setting.tex"
 mainfont: NanumMyeongjo
-packagename: packagename
+packagename: example
+editor: Issac Lee
+# colsep: true
+ncol: 4
+boxbg: white
+themecol: cyan
 ---
 ```
 
